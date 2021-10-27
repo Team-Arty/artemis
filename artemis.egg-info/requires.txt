@@ -1,0 +1,16 @@
+Pillow
+dask[dataframe]
+jupyter
+matplotlib
+nltk
+pandas
+plotly
+scikit-image
+scikit-learn
+seaborn
+symspellpy==6.5.2
+tensorboard
+termcolor
+torch
+torchvision
+tqdm
