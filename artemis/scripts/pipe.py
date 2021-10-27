@@ -32,7 +32,7 @@ def pkl_op_creation(sample,path_persist_fol):
     else:
 
         df= pd.DataFrame()
-        df['image_file'] = path_persist_fol + '/input.jpg'
+        df['image_file'] = pd.Series([path_persist_fol + '/input.jpg'])
         df.to_csv(path_persist_fol + "/caption_test.csv")
 
         # Running a terminal operation
